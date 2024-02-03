@@ -1,7 +1,8 @@
+import Header from "./Components/Header";
 const App = () => {
   return (
-    <div>
-      <h1>Hello I am Yash</h1>
+    <div className="bg-black h-screen">
+      <Header />
     </div>
   );
 };
