@@ -1,5 +1,6 @@
 import logo from "../images/header/cryptopunk-logo.png";
 import search from "../images/header/search.png";
+import themeLogo from "../images/header/theme-switch.png";
 const Header = () => {
   return (
     <div className="p-5 flex justify-between ">
@@ -18,6 +19,12 @@ const Header = () => {
         <p className="m-4">Drops</p>
         <p className="m-4">Marketplace</p>
         <p className="m-4">Create</p>
+      </div>
+      <div className="bg-[#1c1c1e] rounded-full  h-11 m-2 ml-6 align-center  object-contain flex">
+        <img src={themeLogo} alt="theme-logo" className=" p-3" />
+      </div>
+      <div className="bg-gradient-to-r from-[#59f9b7] to-[#66feea]  rounded-full m-3  px-10 p-2">
+        <button className="text-black ">GET IN</button>
       </div>
     </div>
   );
